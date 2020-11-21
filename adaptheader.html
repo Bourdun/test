@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="static/css/adaptive.css">
+
+</head>
+<body>
+<header class="header">
+		<div class="header__container">
+			<div class="container__left">
+				<div class="left__logo">
+                    <img src="media/img/logo" class="logo" alt="">
+				</div>
+			</div>
+			<div class="container__right">
+				<div class="right__left">
+                    <div class="header-container__links">
+					<ul class="ul-links">
+						<li>link</li>
+						<li>link</li>
+						<li>link</li>
+					</ul>
+                </div>
+			</div>
+			</div>
+			</div>
+			</header>
+			
+				<input type="button" class="swap" value="swap">
+				<p class="p1">Первый тег P</p>
+				<p class="p2">Последний тег</p>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script>	
+$(document).ready(function () {
+                
+	$('.swap').click(function () {
+		$('p1').replace("p2");
+	});
+});
+</script>	
+
+</body>
+</html>
